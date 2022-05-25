@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/fjäder.obj-404c9bd4f05398b8515e57ea263718ea.mesh"
+
+[deps]
+
+files=[ "res://.import/fjäder.obj-404c9bd4f05398b8515e57ea263718ea.mesh" ]
+
+source_file="res://assets/fjäder.obj"
+dest_files=[ "res://.import/fjäder.obj-404c9bd4f05398b8515e57ea263718ea.mesh", "res://.import/fjäder.obj-404c9bd4f05398b8515e57ea263718ea.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286
