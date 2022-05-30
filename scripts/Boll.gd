@@ -2,8 +2,8 @@ extends KinematicBody
 
 
 const g = 9.80665
-onready var velocity = Vector3(0, 0, 0)
-onready var pi = 3.14159265358979323846
+const pi = 3.14159265358979323846
+var velocity = Vector3(0, 0, 0)
 
 func fire(grader, magnitud):
 	# Fₓₓₓ_x = F * cos(vinkel)

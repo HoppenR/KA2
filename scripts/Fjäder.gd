@@ -1,16 +1,21 @@
 extends KinematicBody
 
+
 const g = 9.80665
+const pi = 3.14159265358979323846
 onready var v = 0
 onready var a = 0
-onready var k = 0
-onready var m = 50
+onready var k = 25
+onready var m = 1
 onready var equilibrium = $"MeshInstance".get_aabb().size.y
 onready var x = equilibrium
 var started = false
 
 func _ready():
 	pass
+
+func _process(delta):
+	$"Knappar/PeriodtidText".text = "Periodtid: %.2fs" % (2 * pi * sqrt(m / k))
 
 func start(k_in, x_in, m_in):
 	a = 0

@@ -5,8 +5,8 @@ func _ready():
 	pass
 
 func _process(delta):
-	var luftmots = get_node("../ViktGlidare")
+	var viktGlidare = get_node("../ViktGlidare")
 	if pressed:
-		luftmots.visible = true
+		viktGlidare.visible = true
 	else:
-		luftmots.visible = false
+		viktGlidare.visible = false
